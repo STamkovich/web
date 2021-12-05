@@ -1,0 +1,88 @@
+<!--<!doctype html> Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!doctype html>
+<!--<html lang="ru"> ООболочка документа, указываем язык содержимого (не отображается) на странице-->
+<html lang="ru">
+    <!--заголовок страницы, контейнер для других важных данных-->
+    <head>
+        <!-- <title> Заголовок страницы в браузере-->
+        <title>Знакомства с html тегами часть 3 (Формы)</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    </head>
+    <!--Отображаемое тело страницы все что будет внутри body  будет видно в браузере-->
+    <body>
+        <!-- тег <form>(ящик с инструментами) это блочный тег и имеет закрывающий элемент и он отвечает за передачу данных, а куда отправлять эти данные определяет атрибут action (Адрес с сервера)-->
+        <!-- Атрибут method отвечает за метод передачи данных и может иметь два значения get(по умолчанию) при методе get
+        передача данных идёт прямо в адресной строке(подходит для передачи малого количества данных). Так же имеется метод post, передаёт данные скрытна используя
+        запрос браузера может отправляться большое количество данных)-->
+        <!-- А так же атрибут enctype со значением multipart/form-data-->
+        <form action="#" method="post" enctype="multipart/form-data"></form>
+        <!-- приём данных от пользователя-->
+        <!--<input> и атрибут type + name = value-->
+        <!--для мобильного номера телефона нужен атрибут <tel>-->
+        <div>
+            <label>
+                <input type="text" name="username" value="">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Имя" type="password" name="userpass" value=""> <!-- атрибут placeholder задаёт подпись поля и атрибут disabled  блокирует поля и не передают данные на сервер-->
+            </label> <!-- ДЛя пароля-->
+        </div>
+        <div>
+            <p><label>
+                <input checked type="radio" name="beer" value="lager">
+            </label> Светлое пиво</p> <!-- радио кнопки которые позволяют делать или атрибут checked ставит выбор по умолчанию -->
+            <p><label>
+                <input checked type="radio" name="beer" value="Dark">
+            </label> Тёмное пиво</p>
+        </div>
+        <br>
+        <div>
+            <p><label>
+                <input type="radio" name="beer2" value="lager">
+            </label> Светлое пиво</p> <!-- радио кнопки которые позволяют делать или, или -->
+            <p><label>
+                <input type="radio" name="beer2" value="Dark">
+            </label> Тёмное пиво</p>
+        </div>
+        <br>
+        <div>
+            <p><label>
+                <input type="checkbox" name="cer" value="yes">
+            </label> Наличие авто</p>
+            <p><label>
+                <input type="checkbox" name="cer2" value="yes">
+            </label> Наличие авто2</p>
+            <p><label>
+                <input type="checkbox" name="cer3" value="yes">
+            </label> Наличие авто3</p>
+            <p><label>
+                <input type="checkbox" name="cer4" value="yes">
+            </label> Наличие авто4</p>
+            <div>
+                <p><input type="file" name="photo" /></p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label>
+                <textarea name="text" ></textarea>
+            </label> <!-- тег для создания поля ввода текста(Описание например)-->
+        </div>
+        <br>
+        <div>
+            <label>
+                <select name="color">   <!-- Список для выбора допустим цвета ещё если передать мултиплай для множественного выбора и selected для умолчания-->
+                <option value="red">Красный</option>
+                <option value="yellow">Жёлтый</option>
+                <option value="blue">Голубой</option>
+            </select>
+            </label>
+            <br>
+        </div>
+        <div>
+            <button type="submit">Отправитель</button>  <!-- тег кнопка атрибут reset очищение всех полей-->
+        </div>
+    </body>
+</html>
