@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a46eb7b-6641-4057-9781-271aacce7b10" name="Changes" comment="&quot;Создание проекта&quot;">
-      <change afterPath="$PROJECT_DIR$/2022/htmltags_2/img/s-9a011631e41672d00dd3771fa48250bb48ef1a2d.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/htmltags_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/webProject/index.html" afterDir="false" />
+    <list default="true" id="7a46eb7b-6641-4057-9781-271aacce7b10" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/webProject/webProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/htmltags_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/htmltags_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/htmltags_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/htmltags_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/htmltags_2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="21ppJg9vYx5YI18oXlRFxA3IS44" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,7 +39,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022/htmltags_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1638647813050</updated>
       <workItem from="1638647814289" duration="5283000" />
-      <workItem from="1638690771858" duration="5548000" />
+      <workItem from="1638690771858" duration="6003000" />
+      <workItem from="1638702217875" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Создание проекта&quot;">
       <created>1638649447120</created>
@@ -89,7 +91,35 @@
       <option name="project" value="LOCAL" />
       <updated>1638652293641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Теги&quot;">
+      <created>1638701728275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638701728275</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Теги&quot;">
+      <created>1638702290225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638702290225</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Теги&quot;">
+      <created>1638703288473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638703288473</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;Теги&quot;">
+      <created>1638705573968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638705573968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Создание проекта&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Создание проекта&quot;" />
+    <MESSAGE value="&quot;Теги&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Теги&quot;" />
   </component>
 </project>
