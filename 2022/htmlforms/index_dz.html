@@ -1,0 +1,90 @@
+<!--<!doctype html> Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!doctype html>
+<!--<html lang="ru"> ООболочка документа, указываем язык содержимого (не отображается) на странице-->
+<html lang="ru">
+    <!--заголовок страницы, контейнер для других важных данных-->
+    <head>
+        <!-- <title> Заголовок страницы в браузере-->
+        <title>Знакомства с html тегами часть 3 (Формы)</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    </head>
+    <!--Отображаемое тело страницы все что будет внутри body  будет видно в браузере-->
+    <body>
+        <form action="#" method="get">
+            <p>Имя</p>
+            <div>
+                <label>
+                    <input placeholder="Имя" tabindex="1" name="username" type="text"> <!-- атрибут placeholder задаёт подпись поля и атрибут disabled  блокирует поля и не передают данные на сервер-->
+                </label> <!-- ДЛя пароля-->
+            </div>
+            <p>Пароль</p>
+            <div>
+                <label>
+                    <input tabindex="2" name="userpass" type="password"> <!-- атрибут placeholder задаёт подпись поля и атрибут disabled  блокирует поля и не передают данные на сервер-->
+                </label> <!-- ДЛя пароля-->
+            </div>
+            <div>
+                <p>Телефон</p>
+                <label>
+                    <input tabindex="3" name="userphone" type="tel"> <!-- атрибут placeholder задаёт подпись поля и атрибут disabled  блокирует поля и не передают данные на сервер-->
+                </label>
+            </div>
+            <div>
+                <p>Пол</p>
+                <label>
+                    <input tabindex="4" checked type="radio" name="gender" value="male">
+                </label> Мужской
+                <br>
+                <label>
+                    <input tabindex="4" type="radio" name="gender" value="female">
+                </label> Женский
+            </div>
+            <br>
+            <div>
+                <p>Имущество</p>
+                    <div>
+                        <label>
+                            <input tabindex="5" checked type="checkbox" name="bike" value="yes">
+                        </label>Велик
+                    </div>
+                    <div>
+                        <label>
+                            <input tabindex="6" type="checkbox" name="car" value="yes">
+                        </label>Машина
+                    </div>
+                    <div>
+                        <label>
+                            <input tabindex="6" disabled type="checkbox" name="house" value="yes">
+                        </label>Дом
+                    </div>
+            </div>
+            <div>
+                <p>Дополнительная информация</p>
+                <div>
+                    <label>
+                        <textarea tabindex="8" name="text" ></textarea>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <p>Прикрепить фото</p>
+                <p><input tabindex="9" type="file" name="photo" /></p>
+            </div>
+            <div>
+                <p>Любимый цвет</p>
+                <label>
+                    <select tabindex="10" name="color">
+                    <option selected value="red">Красный</option>
+                    <option value="yellow">Жёлтый</option>
+                    <option value="blue">Голубой</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <p>Действия</p>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+    </body>
+</html>
