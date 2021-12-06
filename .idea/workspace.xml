@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a46eb7b-6641-4057-9781-271aacce7b10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/htmlforms/dz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/htmlforms/index_dz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/htmlforms/table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/htmlforms/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/htmlforms/index3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,8 @@
       <workItem from="1638647814289" duration="5283000" />
       <workItem from="1638690771858" duration="6003000" />
       <workItem from="1638702217875" duration="9964000" />
-      <workItem from="1638729054991" duration="10469000" />
+      <workItem from="1638729054991" duration="10503000" />
+      <workItem from="1638813877358" duration="2252000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Создание проекта&quot;">
       <created>1638649447120</created>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638714309387</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;формы&quot;">
+      <created>1638760160290</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638760160290</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +170,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Создание проекта&quot;" />
     <MESSAGE value="&quot;Теги&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Теги&quot;" />
+    <MESSAGE value="&quot;формы&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;формы&quot;" />
   </component>
 </project>
